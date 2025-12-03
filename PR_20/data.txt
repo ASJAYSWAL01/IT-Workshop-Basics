@@ -1,0 +1,3 @@
+Ashish:12345:ashish@gmail.com
+Hrishit:abcde:hrishit@gmail.com
+Het:pass123:het@gmail.com

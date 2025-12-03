@@ -1,0 +1,50 @@
+<!-- Practical 14 : HTML Page that contains form with fields Name, Email, Mobile No, Gender, Favourite Color and a
+button. Also write a JavaScript code to combine and display the information in textbox when the button is
+clicked.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practical 14</title>
+    <link rel="stylesheet" href="PR_14.css">
+    <script src="PR_14.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>User Information Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label for="mobile">Mobile No:</label>
+            <input type="text" id="mobile" placeholder="Enter your mobile number">
+
+             <label>Gender:</label>
+            <div class="gender-group">
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="other">Other</label>
+            </div>
+
+            <label for="color">Favourite Color:</label>
+            <input type="color" id="color">
+
+            <button type="button" onclick="displayInfo()">Submit</button>
+
+            <label for="output">Combined Information:</label>
+            <textarea id="output" readonly rows="6"></textarea>
+        
+        </form>
+        <p class="footer">Prepared by <b>Ashish jayswal</b></p>
+        
+    </div>
+</body>
+</html>

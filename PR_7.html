@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Practical 7</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #e3f2fd, #fce4ec);
+      margin: 0;
+      padding: 0;
+      color: #212121;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      width: 95%;
+      max-width: 1000px;
+      margin: 40px 0;
+      padding: 40px;
+      background: #ffffff;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+      border-radius: 12px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    header h1 {
+      color: #2C3E50;
+      margin: 0;
+      font-size: 42px;
+      letter-spacing: 1px;
+    }
+    header h3 {
+      color: #555;
+      margin-top: 8px;
+      font-size: 20px;
+      font-weight: 400;
+    }
+    .contact {
+      text-align: center;
+      margin: 20px 0 30px;
+    }
+    .contact a {
+      color: #1565c0;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+      color: #0d47a1;
+    }
+    hr {
+      border: 0;
+      height: 2px;
+      background: linear-gradient(to right, #42a5f5, #ec407a);
+      margin: 30px 0;
+      border-radius: 2px;
+    }
+    h2 {
+      color: #0D47A1;
+      border-left: 6px solid #42a5f5;
+      padding-left: 12px;
+      margin-top: 35px;
+      margin-bottom: 15px;
+    }
+    p, ul {
+      font-size: 15px;
+      line-height: 1.7;
+      color: #333;
+    }
+    ul {
+      margin: 10px 0 20px 20px;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .skills span {
+      background: #e3f2fd;
+      color: #0D47A1;
+      padding: 8px 14px;
+      margin: 6px;
+      border-radius: 20px;
+      font-size: 14px;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .skills span:hover {
+      background: #bbdefb;
+      transform: scale(1.05);
+    }
+    .two-columns {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .column {
+      flex: 1;
+      min-width: 320px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 13px;
+      color: #666;
+    }
+    footer span {
+      color: #ec407a;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Ashish Jayswal</h1>
+      <h3>Freelancer · Aspiring Software Developer</h3>
+      <div class="contact">
+        📞 <a href="tel:+917283881430">+91-7283881430</a> |
+        ✉️ <a href="mailto:ashishjayswal698@gmail.com">ashishjayswal698@gmail.com</a><br>
+        <a href="https://www.linkedin.com/in/ashishjayswal01/" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/ASJAYSWAL01" target="_blank">GitHub</a>
+      </div>
+    </header>
+
+    <hr>
+
+    <h2>Objective</h2>
+    <p>Aspiring software developer eager to apply technical skills and leadership in real-world projects.</p>
+
+    <h2>Education</h2>
+    <ul>
+      <li><b>B.E. in Computer Engineering</b> — LDRP Institute of Technology & Research, Gandhinagar (2025–Present)</li>
+      <li><b>Diploma in Computer Engineering</b> — Government Polytechnic, Himatnagar (2022–2025)</li>
+    </ul>
+
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Flutter</span><span>Web Development</span><span>Java</span><span>MongoDB</span><span>IoT</span>
+      <span>Bootstrap</span><span>NPM</span><span>Google Sites</span><span>Google Analytics</span>
+      <span>Communication</span><span>Multitasking</span><span>Observation</span><span>Reasoning</span>
+      <span>Leadership</span><span>Management</span><span>Canva Designing</span>
+    </div>
+
+    <h2>Experience</h2>
+    <ul>
+      <li><b>Intern · Flutter Development</b> — InfoLabz IT Services Pvt. Ltd., Ahmedabad (Jun 2024 – Aug 2024)
+        <ul>
+          <li>Built mobile app features in Flutter with UI/UX enhancements.</li>
+          <li>Contributed to Smart IV healthcare project (gold medal recognition).</li>
+        </ul>
+      </li>
+      <li><b>Intern · PHP Development</b> — Merge Computers, Gandhinagar (Aug 2023)
+        <ul>
+          <li>Hands-on practice with core PHP and web fundamentals.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>Projects</h2>
+    <ul>
+      <li><b>Smart IV</b> — <a href="https://drive.google.com/file/d/1Y_oALgLumnWHqSCqRfjR_Qzi3L-QicLC/view?usp=drivesdk" target="_blank">Download</a>
+        <ul>
+          <li>Smart IV Stand monitors infusion levels and alerts nurses via Flutter app.</li>
+          <li>Approved under SSIP; gold medal; 1st rank at Technobition 2025.</li>
+        </ul>
+      </li>
+      <li><b>Departmental Google Site</b> — <a href="https://sites.google.com/view/gphcomputer/home" target="_blank">View</a>
+        <ul>
+          <li>Launched Computer Engineering Dept. website on Google Sites; approved by HOD.</li>
+        </ul>
+      </li>
+      <li><b>GPH Computer Department Website</b>
+        <ul>
+          <li>Maintained official site with HTML, CSS, JS & Bootstrap for timely updates.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>Leadership</h2>
+    <ul>
+      <li>Led a team in a chatbot hackathon; represented IoT projects to NBA team.</li>
+      <li>Head of ISTE — organized multiple technical events.</li>
+    </ul>
+
+    <h2>Extra-Curricular</h2>
+    <ul>
+      <li>Organized technical & non-technical events; active workshop participation.</li>
+      <li>Achievements include a gold medal in sports/competitions.</li>
+    </ul>
+
+    <footer>
+      © 2025 · Resume created with <span>HTML & CSS</span>
+    </footer>
+  </div>
+</body>
+</html>

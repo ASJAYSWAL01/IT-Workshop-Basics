@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="student.css"?>
+<students>
+    <student>
+        <enrollment>D2D-BE-CE-48</enrollment>
+        <name>Ashish Jayswal</name>
+        <mobile>7283881430</mobile>
+        <email>ashishjayswal698@gmail.com</email>
+    </student>
+     <student>
+        <enrollment>D2D-BE-CE-47</enrollment>
+        <name>Hrishit Patel</name>
+        <mobile>9998722507</mobile>
+        <email>hrishitpatel25206@gmail.com</email>
+    </student>
+    
+    
+</students>
